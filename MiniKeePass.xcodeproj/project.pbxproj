@@ -132,20 +132,11 @@
 		68E08316146F2749001C4EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E08314146F2749001C4EDF /* InfoPlist.strings */; };
 		68EA62DB1CC972F300B33E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EA62DA1CC972F300B33E42 /* LaunchScreen.storyboard */; };
 		68EBC2D61613394D00E8E799 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EBC2D51613394D00E8E799 /* QuartzCore.framework */; };
-		A45358F3244D457300612BC5 /* MBProgressHUD.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A45358EA244D457300612BC5 /* MBProgressHUD.podspec */; };
-		A45358F4244D457300612BC5 /* MBProgressHUD.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A45358EB244D457300612BC5 /* MBProgressHUD.xcworkspace */; };
-		A45358F5244D457300612BC5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A45358EC244D457300612BC5 /* MBProgressHUD.m */; };
+		A4F1E2C0244D55580090F8B3 /* Framework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F1E2BD244D55580090F8B3 /* Framework-Info.plist */; };
+		A4F1E2C1244D55580090F8B3 /* include in Resources */ = {isa = PBXBuildFile; fileRef = A4F1E2BE244D55580090F8B3 /* include */; };
+		A4F1E2C2244D55580090F8B3 /* Framework-tvOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4F1E2BF244D55580090F8B3 /* Framework-tvOS-Info.plist */; };
+		A4F1E2CB244D556F0090F8B3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F1E2C4244D556E0090F8B3 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A45358F1244D457300612BC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A45358ED244D457300612BC5 /* MBProgressHUD.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D286A7491518C70F00E13FB8;
-			remoteInfo = MBProgressHUD;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4E8C168E16B3E871004195A1 /* fr-createdb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "fr-createdb.html"; sourceTree = "<group>"; };
@@ -360,12 +351,15 @@
 		68E0831C146F2D37001C4EDF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68EA62DA1CC972F300B33E42 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68EBC2D51613394D00E8E799 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		A45358E8244D457300612BC5 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
-		A45358E9244D457300612BC5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		A45358EA244D457300612BC5 /* MBProgressHUD.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBProgressHUD.podspec; sourceTree = "<group>"; };
-		A45358EB244D457300612BC5 /* MBProgressHUD.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = MBProgressHUD.xcworkspace; sourceTree = "<group>"; };
-		A45358EC244D457300612BC5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		A45358ED244D457300612BC5 /* MBProgressHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MBProgressHUD.xcodeproj; sourceTree = "<group>"; };
+		A4F1E2BD244D55580090F8B3 /* Framework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Framework-Info.plist"; sourceTree = "<group>"; };
+		A4F1E2BE244D55580090F8B3 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		A4F1E2BF244D55580090F8B3 /* Framework-tvOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Framework-tvOS-Info.plist"; sourceTree = "<group>"; };
+		A4F1E2C3244D556E0090F8B3 /* MBProgressHUD.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = MBProgressHUD.podspec; sourceTree = "<group>"; };
+		A4F1E2C4244D556E0090F8B3 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A4F1E2C5244D556E0090F8B3 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		A4F1E2C6244D556F0090F8B3 /* MBProgressHUD.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = MBProgressHUD.xcworkspace; sourceTree = "<group>"; };
+		A4F1E2C9244D556F0090F8B3 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A4F1E2CA244D556F0090F8B3 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		BDB0FF5D194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text; name = nl; path = nl.lproj/AppStore.txt; sourceTree = "<group>"; };
 		BDB0FF5E194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BDB0FF5F194C7C6F00C44DEF /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -662,12 +656,15 @@
 				689DFFD813A4273F005EBD36 /* Frameworks */,
 				689D041413A42B85005EBD36 /* Resources */,
 				689DFFD613A4273F005EBD36 /* Products */,
-				A45358E8244D457300612BC5 /* MBProgressHUD-Prefix.pch */,
-				A45358E9244D457300612BC5 /* MBProgressHUD.h */,
-				A45358EC244D457300612BC5 /* MBProgressHUD.m */,
-				A45358EA244D457300612BC5 /* MBProgressHUD.podspec */,
-				A45358ED244D457300612BC5 /* MBProgressHUD.xcodeproj */,
-				A45358EB244D457300612BC5 /* MBProgressHUD.xcworkspace */,
+				A4F1E2BD244D55580090F8B3 /* Framework-Info.plist */,
+				A4F1E2BF244D55580090F8B3 /* Framework-tvOS-Info.plist */,
+				A4F1E2C8244D556F0090F8B3 /* MBProgressHUD */,
+				A4F1E2C5244D556E0090F8B3 /* MBProgressHUD-Prefix.pch */,
+				A4F1E2CA244D556F0090F8B3 /* MBProgressHUD.h */,
+				A4F1E2C4244D556E0090F8B3 /* MBProgressHUD.m */,
+				A4F1E2C3244D556E0090F8B3 /* MBProgressHUD.podspec */,
+				A4F1E2C6244D556F0090F8B3 /* MBProgressHUD.xcworkspace */,
+				A4F1E2BE244D55580090F8B3 /* include */,
 			);
 			sourceTree = "<group>";
 		};
@@ -865,12 +862,13 @@
 			path = "Move Items View";
 			sourceTree = "<group>";
 		};
-		A45358EE244D457300612BC5 /* Products */ = {
+		A4F1E2C8244D556F0090F8B3 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A45358F2244D457300612BC5 /* libMBProgressHUD.a */,
+				A4F1E2C9244D556F0090F8B3 /* MBProgressHUD.h */,
 			);
-			name = Products;
+			name = MBProgressHUD;
+			path = include/MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -936,28 +934,12 @@
 			mainGroup = 689DFFCA13A4273F005EBD36;
 			productRefGroup = 689DFFD613A4273F005EBD36 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = A45358EE244D457300612BC5 /* Products */;
-					ProjectRef = A45358ED244D457300612BC5 /* MBProgressHUD.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				689DFFD413A4273F005EBD36 /* MiniKeePass */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		A45358F2244D457300612BC5 /* libMBProgressHUD.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libMBProgressHUD.a;
-			remoteRef = A45358F1244D457300612BC5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		689DFFD313A4273F005EBD36 /* Resources */ = {
@@ -985,8 +967,8 @@
 				52491D0D14D8F3FB00F8CBC8 /* de-dropbox.html in Resources */,
 				688038971D6BB33A001424CA /* WebBrowser.storyboard in Resources */,
 				52491D0E14D8F3FB00F8CBC8 /* de-itunes.html in Resources */,
+				A4F1E2C0244D55580090F8B3 /* Framework-Info.plist in Resources */,
 				68BFDBE61D7646B400EFACB3 /* MoveItems.storyboard in Resources */,
-				A45358F3244D457300612BC5 /* MBProgressHUD.podspec in Resources */,
 				52491D0F14D8F3FB00F8CBC8 /* de-keyfiles.html in Resources */,
 				52491D1014D8F3FB00F8CBC8 /* de-safariemail.html in Resources */,
 				52E43F4C15B59C890029F979 /* ru-createdb.html in Resources */,
@@ -994,17 +976,18 @@
 				52E43F4D15B59C890029F979 /* ru-dropbox.html in Resources */,
 				689EA67A1D67F8B500CF445E /* ImageSelector.storyboard in Resources */,
 				52E43F4E15B59C890029F979 /* ru-itunes.html in Resources */,
-				A45358F4244D457300612BC5 /* MBProgressHUD.xcworkspace in Resources */,
 				52E43F4F15B59C890029F979 /* ru-keyfiles.html in Resources */,
 				52E43F5015B59C890029F979 /* ru-safariemail.html in Resources */,
 				4E8C169316B3E871004195A1 /* fr-createdb.html in Resources */,
 				689EA6941D67F94600CF445E /* Settings.storyboard in Resources */,
+				A4F1E2C1244D55580090F8B3 /* include in Resources */,
 				4E8C169416B3E871004195A1 /* fr-dropbox.html in Resources */,
 				4E8C169516B3E871004195A1 /* fr-itunes.html in Resources */,
 				5271A98D1ED7CA3E00B9AF2C /* TextFieldCell.xib in Resources */,
 				680C9D7A1D69E36C0040FB43 /* Help.storyboard in Resources */,
 				4E8C169616B3E871004195A1 /* fr-keyfiles.html in Resources */,
 				4E8C169716B3E871004195A1 /* fr-safariemail.html in Resources */,
+				A4F1E2C2244D55580090F8B3 /* Framework-tvOS-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1093,7 +1076,7 @@
 				682D45131603883900156830 /* FileOutputStream.m in Sources */,
 				682D45141603883900156830 /* GZipInputStream.m in Sources */,
 				68BFDBE51D7646B400EFACB3 /* GroupCell.swift in Sources */,
-				A45358F5244D457300612BC5 /* MBProgressHUD.m in Sources */,
+				A4F1E2CB244D556F0090F8B3 /* MBProgressHUD.m in Sources */,
 				682D45151603883900156830 /* GZipOutputStream.m in Sources */,
 				682D45161603883900156830 /* HashedInputStream.m in Sources */,
 				682D45171603883900156830 /* HashedOutputStream.m in Sources */,
@@ -1219,7 +1202,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1266,7 +1249,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PROVISIONING_PROFILE = "4758DC3A-B5A3-47FC-BA60-308A27C51D17";
 				SDKROOT = iphoneos;
@@ -1287,7 +1270,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QNE868WNRK;
 				INFOPLIST_FILE = "MiniKeePass/MiniKeePass-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brokencapodevelopment.MiniKeePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1312,7 +1295,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = QNE868WNRK;
 				INFOPLIST_FILE = "MiniKeePass/MiniKeePass-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brokencapodevelopment.MiniKeePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
